@@ -12,5 +12,7 @@ void loop() {
   Serial.print(myString);
   Serial.println(j);
   j = j + 1;
+  
+  // delay function(s) are problematic in qemu
   delay(1000);
 }
